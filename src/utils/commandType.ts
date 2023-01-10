@@ -9,5 +9,9 @@ export interface commandComposant {
   skills?: JSX.Element;
   clasic?: JSX.Element;
   help?: JSX.Element;
+  credit?: JSX.Element;
+  secret?: JSX.Element;
+  download?: JSX.Element;
+  contact?: JSX.Element;
   [key: string]: any;
 }
