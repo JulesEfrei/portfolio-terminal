@@ -9,7 +9,7 @@ function Links() {
         <br />
         {data.links.map((elm, index) => {
           return (
-            <div className="links-container">
+            <div className="links-container" key={`${elm.name}-${index}`}>
               <p>{elm.name}: </p>
               <a href={elm.link} target="_blank">
                 {elm.link}
