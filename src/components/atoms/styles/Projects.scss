@@ -1,0 +1,57 @@
+@use "../../../utils/variables.scss";
+
+.projects-component {
+  .github-span {
+    color: variables.$accent-color;
+  }
+
+  .list-item {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin-top: 2rem;
+
+    .name {
+      grid-column-start: 1;
+      grid-column-end: 1;
+
+      span {
+        color: variables.$type-color;
+      }
+    }
+
+    .description {
+      grid-column-start: 2;
+      grid-column-end: 4;
+    }
+
+    a {
+      grid-column-start: 2;
+      grid-column-end: 4;
+      grid-row-start: 2;
+      width: inherit;
+    }
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  .projects-component .list-item a {
+    color: variables.$secondary-light-text-color;
+
+    &:hover {
+      background-color: variables.$secondary-light-text-color;
+      color: variables.$light-background-color;
+    }
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .projects-component .list-item a {
+    color: variables.$secondary-dark-text-color;
+
+    &:hover {
+      background-color: variables.$secondary-dark-text-color;
+      color: variables.$dark-background-color;
+    }
+  }
+}

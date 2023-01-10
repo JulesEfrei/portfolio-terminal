@@ -14,5 +14,32 @@
   ],
   "about": {
     "text": "Hello, my name is Jules and I'm a student in Efrei Paris in Bachelor's degree in engineering and digital technology.\n I'm a future web developer with a special interest in JavaScript."
-  }
+  },
+  "projects": [
+    {
+      "name": "Netflix-clone",
+      "link": "https://github.com/JulesEfrei/Netflix-Clone",
+      "description": "Front-end clone of Netflix using Tailwind"
+    },
+    {
+      "name": "LevelUp",
+      "link": "https://github.com/JulesEfrei/LevelUp",
+      "description": "Mobile application to track activities and stay motivated"
+    },
+    {
+      "name": "LevelUp-LandingPage",
+      "link": "https://github.com/JulesEfrei/LevelUp-LandingPage",
+      "description": "Landing page of LevelUp application"
+    },
+    {
+      "name": "FontAwesomeMigration",
+      "link": "https://github.com/JulesEfrei/FontAwesomeMigration",
+      "description": "Rapid front-end of difference between Font Awesome 5 & 6"
+    },
+    {
+      "name": "Chaters",
+      "link": "https://github.com/JulesEfrei/Chaters",
+      "description": "Real-time chat web application using Socket.io"
+    }
+  ]
 }
