@@ -1,0 +1,24 @@
+@use "../../../utils/variables.scss";
+
+.help-container {
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    .name-container {
+      p {
+        color: variables.$accent-color;
+      }
+      grid-column-start: 1;
+      grid-column-end: 1;
+    }
+
+    .description-container {
+      p {
+        color: variables.$type-color;
+      }
+      grid-column-start: 2;
+      grid-column-end: 4;
+    }
+  }
+}

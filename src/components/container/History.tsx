@@ -1,6 +1,6 @@
 import { Input } from ".";
 import { command, commandComposant } from "../../utils/commandType";
-import { Banner, Links, Contact, About } from "../atoms";
+import { Banner, Links, Contact, About, Help } from "../atoms";
 import "./styles/History.scss";
 
 function History({ history }: { history: command[] }) {
@@ -9,6 +9,7 @@ function History({ history }: { history: command[] }) {
     links: <Links />,
     contact: <Contact />,
     about: <About />,
+    help: <Help />,
   };
 
   return (
