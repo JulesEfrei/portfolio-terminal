@@ -28,6 +28,10 @@ p {
   padding: 0;
 }
 
+input {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+}
+
 input:focus {
   outline: none;
 }
@@ -42,6 +46,10 @@ a {
     background-color: variables.$light-background-color;
   }
 
+  input {
+    color: variables.$light-text-color;
+  }
+
   a {
     color: variables.$light-text-color;
   }
@@ -51,6 +59,10 @@ a {
   :root {
     color: variables.$dark-text-color;
     background-color: variables.$dark-background-color;
+  }
+
+  input {
+    color: variables.$dark-text-color;
   }
 
   a {

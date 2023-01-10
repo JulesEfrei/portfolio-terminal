@@ -1,1 +1,26 @@
 @use "../../../utils/variables.scss";
+
+form {
+  margin-top: 1rem;
+  display: flex;
+
+  p span.accent-color {
+    color: variables.$accent-color;
+  }
+
+  p span.type-color {
+    color: variables.$type-color;
+  }
+
+  p.input-value {
+    margin-left: 10px;
+  }
+
+  input {
+    background-color: transparent;
+    border: none;
+    margin-left: 10px;
+    width: 50%;
+    font-size: 16px;
+  }
+}

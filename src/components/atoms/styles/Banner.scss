@@ -1,1 +1,10 @@
 @use "../../../utils/variables.scss";
+
+.banner-component {
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: flex-end;
+  h1 {
+    font-size: 20px;
+  }
+}

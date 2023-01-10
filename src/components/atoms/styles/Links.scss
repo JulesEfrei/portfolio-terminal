@@ -1,0 +1,15 @@
+@use "../../../utils/variables.scss";
+
+.links-component {
+  .links-container {
+    display: flex;
+
+    p {
+      color: variables.$type-color;
+    }
+
+    a {
+      margin-left: 10px;
+    }
+  }
+}
