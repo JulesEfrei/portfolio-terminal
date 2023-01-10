@@ -11,6 +11,7 @@ export type command =
   | "help"
   | "credit"
   | "secret"
+  | "error"
   | "download";
 
 export interface commandComposant {
@@ -19,7 +20,8 @@ export interface commandComposant {
   contact?: JSX.Element;
   about?: JSX.Element;
   help?: JSX.Element;
-  projects?: JSX.Element; //To-do
+  projects?: JSX.Element;
+  error?: JSX.Element;
   experience?: JSX.Element; //To-do
   skills?: JSX.Element; //To-do
   clasic?: JSX.Element; //To-do

@@ -1,0 +1,11 @@
+@use "../../../utils/variables.scss";
+
+.error-container {
+  .error-text {
+    color: variables.$type-color;
+  }
+
+  .accent-text {
+    color: variables.$accent-color;
+  }
+}
