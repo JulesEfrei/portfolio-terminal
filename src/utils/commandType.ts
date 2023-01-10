@@ -1,4 +1,4 @@
-export type command = "clear" | "banner" | "links";
+export type command = "clear" | "banner" | "links" | "contact";
 
 export interface commandComposant {
   banner?: JSX.Element;

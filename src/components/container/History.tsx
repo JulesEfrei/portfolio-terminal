@@ -1,13 +1,13 @@
 import { Input } from ".";
 import { command, commandComposant } from "../../utils/commandType";
-import { Banner } from "../atoms";
-import Links from "../atoms/Links";
+import { Banner, Links, Contact } from "../atoms";
 import "./styles/History.scss";
 
 function History({ history }: { history: command[] }) {
   const commandComponent: commandComposant = {
     banner: <Banner />,
     links: <Links />,
+    contact: <Contact />,
   };
 
   return (

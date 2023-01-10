@@ -1,13 +1,9 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { command } from "../../utils/commandType";
 import { History, Input } from "../container";
 
 function HomePage() {
   const [history, setHistory] = useState<command[]>([]);
-
-  useEffect(() => {
-    console.log(history);
-  }, [history]);
 
   return (
     <>
