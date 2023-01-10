@@ -11,5 +11,8 @@
   "links": [
     { "name": "GitHub", "link": "https://github.com/JulesEfrei" },
     { "name": "LinkedIn", "link": "https://www.linkedin.com/in/jules-bruzeau/" }
-  ]
+  ],
+  "about": {
+    "text": "Hello, my name is Jules and I'm a student in Efrei Paris in Bachelor's degree in engineering and digital technology.\n I'm a future web developer with a special interest in JavaScript."
+  }
 }
