@@ -5,7 +5,6 @@ export type command =
   | "contact"
   | "projects"
   | "about"
-  | "experience"
   | "skills"
   | "clasic"
   | "help"
@@ -22,11 +21,11 @@ export interface commandComposant {
   help?: JSX.Element;
   projects?: JSX.Element;
   error?: JSX.Element;
-  experience?: JSX.Element; //To-do
   skills?: JSX.Element; //To-do
   clasic?: JSX.Element; //To-do
   credit?: JSX.Element; //To-do
   secret?: JSX.Element; //To-do
   download?: JSX.Element; //To-do
+  sendMsg?: JSX.Element; //To-do
   [key: string]: any;
 }
