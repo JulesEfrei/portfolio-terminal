@@ -41,5 +41,28 @@
       "link": "https://github.com/JulesEfrei/Chaters",
       "description": "Real-time chat web application using Socket.io"
     }
-  ]
+  ],
+  "skills": {
+    "Common Stack": ["JavaScript", "TypeScript", "Jest", "Git", "GitHub"],
+    "Front-End": [
+      "HTML5/CSS3",
+      "JavaScript",
+      "Tailwind",
+      "Sass",
+      "React",
+      "NextJs",
+      "VueJs"
+    ],
+    "Mobile": ["React-Native"],
+    "Back-end": ["NodeJs", "ExpressJs", "PHP"],
+    "Database": ["SQL", "MySQL", "PostgreSQL", "MongoDB"],
+    "Programation": ["Python", "Java"],
+    "What I'm learning": [
+      "Svelte",
+      "SvelteKit",
+      "Astro",
+      "ThreeJs",
+      "Creative Development"
+    ]
+  }
 }

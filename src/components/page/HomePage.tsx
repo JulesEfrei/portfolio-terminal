@@ -10,7 +10,6 @@ function HomePage() {
     "contact",
     "projects",
     "about",
-    "experience",
     "skills",
     "clasic",
     "help",

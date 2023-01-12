@@ -1,0 +1,15 @@
+@use "../../../utils/variables.scss";
+
+.skills-component {
+  .container h4 {
+    margin: 1rem 0;
+    color: variables.$accent-color;
+  }
+
+  .item-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 50%;
+    row-gap: 10px;
+  }
+}

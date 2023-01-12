@@ -7,7 +7,6 @@ function Help() {
     { name: "classic", description: "Redirection to classic portfolio" },
     { name: "contact", description: "How to contact me" },
     { name: "download", description: "Download my CV" },
-    { name: "experience", description: "Experience I had in corporation" },
     { name: "links", description: "My social network links" },
     {
       name: "project",

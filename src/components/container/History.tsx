@@ -1,6 +1,15 @@
 import { Input } from ".";
 import { command, commandComposant } from "../../utils/commandType";
-import { Banner, Links, Contact, About, Help, Projects, Error } from "../atoms";
+import {
+  Banner,
+  Links,
+  Contact,
+  About,
+  Help,
+  Projects,
+  Error,
+  Skills,
+} from "../atoms";
 import "./styles/History.scss";
 
 function History({ history }: { history: command[] }) {
@@ -12,6 +21,7 @@ function History({ history }: { history: command[] }) {
     help: <Help />,
     projects: <Projects />,
     error: <Error />,
+    skills: <Skills />,
   };
 
   return (
