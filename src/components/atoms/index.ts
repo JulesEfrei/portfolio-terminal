@@ -7,6 +7,7 @@ import Projects from "./Projects";
 import Error from "./Error";
 import Skills from "./Skills";
 import Download from "./Download";
+import Clasic from "./Clasic";
 
 export {
   Banner,
@@ -18,4 +19,5 @@ export {
   Error,
   Skills,
   Download,
+  Clasic,
 };

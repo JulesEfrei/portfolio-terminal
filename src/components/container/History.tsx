@@ -10,6 +10,7 @@ import {
   Error,
   Skills,
   Download,
+  Clasic,
 } from "../atoms";
 import "./styles/History.scss";
 
@@ -24,6 +25,7 @@ function History({ history }: { history: command[] }) {
     error: <Error />,
     skills: <Skills />,
     download: <Download />,
+    clasic: <Clasic />,
   };
 
   return (

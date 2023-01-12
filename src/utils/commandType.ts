@@ -8,7 +8,6 @@ export type command =
   | "skills"
   | "clasic"
   | "help"
-  | "credit"
   | "secret"
   | "error"
   | "download";
@@ -22,10 +21,9 @@ export interface commandComposant {
   projects?: JSX.Element;
   error?: JSX.Element;
   skills?: JSX.Element;
-  clasic?: JSX.Element; //To-do
-  credit?: JSX.Element; //To-do
+  download?: JSX.Element;
+  clasic?: JSX.Element;
   secret?: JSX.Element; //To-do
-  download?: JSX.Element; //To-do
   sendMsg?: JSX.Element; //To-do
   [key: string]: any;
 }
