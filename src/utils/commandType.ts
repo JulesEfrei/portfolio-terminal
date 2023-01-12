@@ -21,7 +21,7 @@ export interface commandComposant {
   help?: JSX.Element;
   projects?: JSX.Element;
   error?: JSX.Element;
-  skills?: JSX.Element; //To-do
+  skills?: JSX.Element;
   clasic?: JSX.Element; //To-do
   credit?: JSX.Element; //To-do
   secret?: JSX.Element; //To-do

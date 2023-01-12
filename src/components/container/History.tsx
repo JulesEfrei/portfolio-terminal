@@ -9,6 +9,7 @@ import {
   Projects,
   Error,
   Skills,
+  Download,
 } from "../atoms";
 import "./styles/History.scss";
 
@@ -22,6 +23,7 @@ function History({ history }: { history: command[] }) {
     projects: <Projects />,
     error: <Error />,
     skills: <Skills />,
+    download: <Download />,
   };
 
   return (

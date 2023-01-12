@@ -6,5 +6,16 @@ import Help from "./Help";
 import Projects from "./Projects";
 import Error from "./Error";
 import Skills from "./Skills";
+import Download from "./Download";
 
-export { Banner, Links, Contact, About, Help, Projects, Error, Skills };
+export {
+  Banner,
+  Links,
+  Contact,
+  About,
+  Help,
+  Projects,
+  Error,
+  Skills,
+  Download,
+};
