@@ -5,7 +5,7 @@ function Skills() {
   return (
     <>
       <div className="skills-component">
-        {Object.keys(data.skills).map((elm, index) => {
+        {Object.keys(data.skills).map((elm: String, index: Number) => {
           return (
             <div className="container" key={`${elm}-${index}`}>
               <h4>{elm}</h4>
