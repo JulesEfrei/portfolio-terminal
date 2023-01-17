@@ -3,9 +3,11 @@ import "./styles/Download.scss";
 function Download() {
   return (
     <>
-      <a href="./cv.pdf" download="CV Jules Bruzeau">
-        Download My CV
-      </a>
+      <div className="download-command">
+        <a href="./cv.pdf" download="CV Jules Bruzeau">
+          Download My CV
+        </a>
+      </div>
     </>
   );
 }

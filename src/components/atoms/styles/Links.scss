@@ -4,12 +4,40 @@
   .links-container {
     display: flex;
 
-    p {
-      color: variables.$type-color;
-    }
-
     a {
       margin-left: 10px;
+    }
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .links-component .links-container {
+    p {
+      color: variables.$secondary-dark-text-color;
+    }
+    a {
+      color: variables.$dark-text-color;
+
+      &:hover {
+        color: variables.$dark-background-color;
+        background-color: variables.$dark-text-color;
+      }
+    }
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  .links-component .links-container {
+    p {
+      color: variables.$secondary-light-text-color;
+    }
+    a {
+      color: variables.$light-text-color;
+
+      &:hover {
+        color: variables.$light-background-color;
+        background-color: variables.$light-text-color;
+      }
     }
   }
 }

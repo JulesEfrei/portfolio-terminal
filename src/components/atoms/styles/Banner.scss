@@ -5,20 +5,27 @@
   h1 {
     font-size: 20px;
   }
-
-  p span {
-    color: variables.$accent-color;
-  }
 }
 
 @media (prefers-color-scheme: dark) {
-  .banner-component p.secondary-text {
-    color: variables.$secondary-dark-text-color;
+  .banner-component {
+    p span {
+      color: variables.$dark-accent-color;
+    }
+
+    p.secondary-text {
+      color: variables.$dark-gray-color;
+    }
   }
 }
 
 @media (prefers-color-scheme: light) {
-  .banner-component p.secondary-text {
-    color: variables.$secondary-light-text-color;
+  .banner-component {
+    p span {
+      color: variables.$light-accent-color;
+    }
+    p.secondary-text {
+      color: variables.$light-gray-color;
+    }
   }
 }
