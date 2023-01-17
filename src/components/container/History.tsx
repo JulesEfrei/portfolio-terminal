@@ -1,3 +1,4 @@
+import { useRef } from "react";
 import { Input } from ".";
 import { command, commandComposant } from "../../utils/commandType";
 import {
@@ -28,17 +29,26 @@ function History({ history }: { history: command[] }) {
     clasic: <Clasic />,
   };
 
+  setTimeout(function () {
+    window.scrollTo({
+      top: document.body.offsetHeight,
+      behavior: "smooth",
+    });
+  }, 1);
+
   return (
     <>
-      <Banner />
-      {history.map((elm, index) => {
-        return (
-          <div key={`${elm}-${index}`} style={{ marginBottom: "1rem" }}>
-            <Input inputValue={elm} />
-            {commandComponent[elm]}
-          </div>
-        );
-      })}
+      <div className="history-container">
+        <Banner />
+        {history.map((elm, index) => {
+          return (
+            <div key={`${elm}-${index}`} style={{ marginBottom: "1rem" }}>
+              <Input inputValue={elm} />
+              <div className="command">{commandComponent[elm]}</div>
+            </div>
+          );
+        })}
+      </div>
     </>
   );
 }

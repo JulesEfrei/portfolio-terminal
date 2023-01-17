@@ -50,20 +50,12 @@
       "Tailwind",
       "Sass",
       "React",
-      "NextJs",
       "VueJs"
     ],
     "Mobile": ["React-Native"],
     "Back-end": ["NodeJs", "ExpressJs", "PHP"],
     "Database": ["SQL", "MySQL", "PostgreSQL", "MongoDB"],
     "Programation": ["Python", "Java"],
-    "What I'm learning": [
-      "Next.js",
-      "Svelte",
-      "SvelteKit",
-      "Astro",
-      "ThreeJs",
-      "Creative Development"
-    ]
+    "What I'm learning": ["Next.js", "Svelte", "SvelteKit", "Astro"]
   }
 }
