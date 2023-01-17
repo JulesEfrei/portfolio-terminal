@@ -13,7 +13,7 @@
 
 @media (prefers-color-scheme: light) {
   .download-command a {
-    color: variables.$light-accent-color;
+    color: variables.$light-text-color;
 
     &:hover {
       color: variables.$light-background-color;

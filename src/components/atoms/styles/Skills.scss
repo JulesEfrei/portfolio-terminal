@@ -3,7 +3,6 @@
 .skills-component {
   .container h4 {
     margin: 1rem 0;
-    color: variables.$dark-accent-color;
   }
 
   .item-container {
@@ -11,5 +10,17 @@
     grid-template-columns: repeat(4, 1fr);
     width: 50%;
     row-gap: 10px;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .skills-component .container h4 {
+    color: variables.$dark-accent-color;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  .skills-component .container h4 {
+    color: variables.$light-accent-color;
   }
 }

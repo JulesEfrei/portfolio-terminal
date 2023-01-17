@@ -1,10 +1,6 @@
 @use "../../../utils/variables.scss";
 
 .projects-component {
-  .github-span {
-    color: variables.$dark-accent-color;
-  }
-
   .list-item {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -14,10 +10,6 @@
     .name {
       grid-column-start: 1;
       grid-column-end: 1;
-
-      span {
-        color: variables.$secondary-dark-text-color;
-      }
     }
 
     .description {
@@ -35,23 +27,40 @@
 }
 
 @media (prefers-color-scheme: light) {
-  .projects-component .list-item a {
-    color: variables.$secondary-light-text-color;
+  .projects-component {
+    .github-span {
+      color: variables.$light-accent-color;
+    }
+    .name span {
+      color: variables.$secondary-light-text-color;
+    }
 
-    &:hover {
-      background-color: variables.$secondary-light-text-color;
-      color: variables.$light-background-color;
+    .list-item a {
+      color: variables.$secondary-light-text-color;
+
+      &:hover {
+        background-color: variables.$secondary-light-text-color;
+        color: variables.$light-background-color;
+      }
     }
   }
 }
 
 @media (prefers-color-scheme: dark) {
-  .projects-component .list-item a {
-    color: variables.$secondary-dark-text-color;
+  .projects-component {
+    .github-span {
+      color: variables.$dark-accent-color;
+    }
+    .name span {
+      color: variables.$secondary-dark-text-color;
+    }
+    .list-item a {
+      color: variables.$secondary-dark-text-color;
 
-    &:hover {
-      background-color: variables.$secondary-dark-text-color;
-      color: variables.$dark-background-color;
+      &:hover {
+        background-color: variables.$secondary-dark-text-color;
+        color: variables.$dark-background-color;
+      }
     }
   }
 }

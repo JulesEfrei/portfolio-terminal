@@ -4,14 +4,6 @@ form {
   margin-top: 1rem;
   display: flex;
 
-  p span.accent-color {
-    color: variables.$dark-accent-color;
-  }
-
-  p span.type-color {
-    color: variables.$secondary-dark-text-color;
-  }
-
   p.input-value {
     margin-left: 10px;
   }
@@ -22,5 +14,29 @@ form {
     margin-left: 10px;
     width: 50%;
     font-size: 18px;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  form {
+    p span.accent-color {
+      color: variables.$dark-accent-color;
+    }
+
+    p span.type-color {
+      color: variables.$secondary-dark-text-color;
+    }
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  form {
+    p span.accent-color {
+      color: variables.$light-accent-color;
+    }
+
+    p span.type-color {
+      color: variables.$secondary-light-text-color;
+    }
   }
 }

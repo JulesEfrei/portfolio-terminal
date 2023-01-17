@@ -1,11 +1,25 @@
 @use "../../../utils/variables.scss";
 
-.error-container {
-  .error-text {
-    color: variables.$secondary-dark-text-color;
-  }
+@media (prefers-color-scheme: dark) {
+  .error-container {
+    .error-text {
+      color: variables.$secondary-dark-text-color;
+    }
 
-  .accent-text {
-    color: variables.$dark-accent-color;
+    .accent-text {
+      color: variables.$dark-accent-color;
+    }
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  .error-container {
+    .error-text {
+      color: variables.$secondary-light-text-color;
+    }
+
+    .accent-text {
+      color: variables.$light-accent-color;
+    }
   }
 }
