@@ -6,19 +6,51 @@
     grid-template-columns: repeat(4, 1fr);
 
     .name-container {
-      p {
-        color: variables.$accent-color;
-      }
       grid-column-start: 1;
       grid-column-end: 1;
     }
 
     .description-container {
-      p {
-        color: variables.$type-color;
-      }
       grid-column-start: 2;
       grid-column-end: 4;
+    }
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .help-container {
+    .name-container p {
+      color: variables.$dark-accent-color;
+    }
+
+    .description-container p {
+      color: variables.$secondary-dark-text-color;
+      background-color: transparent;
+
+      &:hover {
+        cursor: pointer;
+        color: variables.$dark-background-color;
+        background-color: variables.$secondary-dark-text-color;
+      }
+    }
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  .help-container {
+    .name-container p {
+      color: variables.$light-accent-color;
+    }
+
+    .description-container p {
+      color: variables.$secondary-light-text-color;
+      background-color: transparent;
+
+      &:hover {
+        cursor: pointer;
+        color: variables.$light-background-color;
+        background-color: variables.$secondary-light-text-color;
+      }
     }
   }
 }

@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { command } from "../../utils/commandType";
 import { History, Input } from "../container";
+import "./styles/HomePage.scss";
 
 function HomePage() {
   const [history, setHistory] = useState<command[]>([]);
@@ -32,8 +33,10 @@ function HomePage() {
 
   return (
     <>
-      <History history={history} />
-      <Input addToHistory={(input: command) => updateHistory(input)} />
+      <div className="home-page-container">
+        <History history={history} />
+        <Input addToHistory={(input: command) => updateHistory(input)} />
+      </div>
     </>
   );
 }

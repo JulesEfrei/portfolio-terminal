@@ -4,12 +4,12 @@ function Help() {
   const data: { name: string; description: string }[] = [
     { name: "about", description: "Short description about me." },
     { name: "banner", description: "Banner" },
-    { name: "classic", description: "Redirection to classic portfolio" },
+    { name: "clasic", description: "Redirection to classic portfolio" },
     { name: "contact", description: "How to contact me" },
     { name: "download", description: "Download my CV" },
     { name: "links", description: "My social network links" },
     {
-      name: "project",
+      name: "projects",
       description: "Some of my project with their link & description",
     },
     { name: "secret", description: "Surprise!" },

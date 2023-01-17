@@ -1,1 +1,8 @@
 @use "../../../utils/variables.scss";
+
+.history-container {
+  overflow-anchor: auto;
+  .command {
+    margin-left: 1.5rem;
+  }
+}
