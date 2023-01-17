@@ -5,11 +5,11 @@ form {
   display: flex;
 
   p span.accent-color {
-    color: variables.$accent-color;
+    color: variables.$dark-accent-color;
   }
 
   p span.type-color {
-    color: variables.$type-color;
+    color: variables.$secondary-dark-text-color;
   }
 
   p.input-value {

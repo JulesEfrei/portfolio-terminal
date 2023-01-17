@@ -58,6 +58,7 @@
     "Database": ["SQL", "MySQL", "PostgreSQL", "MongoDB"],
     "Programation": ["Python", "Java"],
     "What I'm learning": [
+      "Next.js",
       "Svelte",
       "SvelteKit",
       "Astro",

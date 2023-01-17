@@ -3,10 +3,10 @@
 // CSS Reset & default style
 
 :root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Courier New", Courier;
   font-size: 18px;
   line-height: 24px;
-  font-weight: 400;
+  font-weight: bold;
 
   color-scheme: light dark;
 
@@ -29,7 +29,8 @@ p {
 }
 
 input {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Courier New", Courier;
+  font-weight: bold;
 }
 
 input:focus {

@@ -1,1 +1,23 @@
 @use "../../../utils/variables.scss";
+
+@media (prefers-color-scheme: dark) {
+  .download-command a {
+    color: variables.$dark-text-color;
+
+    &:hover {
+      color: variables.$dark-background-color;
+      background-color: variables.$dark-text-color;
+    }
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  .download-command a {
+    color: variables.$light-accent-color;
+
+    &:hover {
+      color: variables.$light-background-color;
+      background-color: variables.$light-text-color;
+    }
+  }
+}
