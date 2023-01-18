@@ -18,6 +18,7 @@ function HomePage() {
     "secret",
     "download",
   ];
+  console.log("HomePage");
 
   const updateHistory: (input: command) => void = (input) => {
     if (input === "clear") {
@@ -35,7 +36,10 @@ function HomePage() {
     <>
       <div className="home-page-container">
         <History history={history} />
-        <Input addToHistory={(input: command) => updateHistory(input)} />
+        <Input
+          addToHistory={(input: command) => updateHistory(input)}
+          history={history}
+        />
       </div>
     </>
   );
