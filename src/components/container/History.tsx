@@ -43,7 +43,7 @@ function History({ history }: { history: command[] }) {
         {history.map((elm, index) => {
           return (
             <div key={`${elm}-${index}`} style={{ marginBottom: "1rem" }}>
-              <Input inputValue={elm} />
+              <Input inputValue={elm} isDisable={true} />
               <div className="command">{commandComponent[elm]}</div>
             </div>
           );

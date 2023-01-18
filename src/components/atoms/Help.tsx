@@ -21,23 +21,20 @@ function Help() {
       <div className="help-container">
         <h4>You need help?</h4>
         <br />
-        <div className="grid-container">
-          {data.map((elm, index) => {
-            return (
-              <>
-                <div className="name-container" key={`${elm.name}-${index}`}>
+        {data.map((elm, index) => {
+          return (
+            <>
+              <div className="grid-container" key={Math.random()}>
+                <div className="name-container">
                   <p>{elm.name}</p>
                 </div>
-                <div
-                  className="description-container"
-                  key={`${elm.name}-${index}`}
-                >
+                <div className="description-container">
                   <p>{elm.description}</p>
                 </div>
-              </>
-            );
-          })}
-        </div>
+              </div>
+            </>
+          );
+        })}
       </div>
     </>
   );
