@@ -18,7 +18,6 @@ function HomePage() {
     "secret",
     "download",
   ];
-  console.log("HomePage");
 
   const updateHistory: (input: command) => void = (input) => {
     if (input === "clear") {
